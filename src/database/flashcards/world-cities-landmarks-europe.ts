@@ -1,0 +1,60 @@
+import type { FlashCard } from '@/types'
+
+export const world_cities_landmarks_europe: FlashCard[] = [
+	{
+		questionTitleHtml: '<strong>Cannes</strong>',
+		questionDescriptionHtml: 'What is the location or description of this?',
+		answerTitleHtml: '<strong>Cannes</strong>',
+		answerDescriptionHtml: 'Location: France<br>Famous resort city on the French Riviera, known for its film festival',
+		pathToMedia: 'placeholder',
+		category: 'world-cities-landmarks-europe',
+	},
+	{
+		questionTitleHtml: '<strong>Florence</strong>',
+		questionDescriptionHtml: 'What is the location or description of this?',
+		answerTitleHtml: '<strong>Florence</strong>',
+		answerDescriptionHtml: 'Location: Italy<br>Historic city in Tuscany, known for Renaissance art and architecture',
+		pathToMedia: 'placeholder',
+		category: 'world-cities-landmarks-europe',
+	},
+	{
+		questionTitleHtml: '<strong>Milan</strong>',
+		questionDescriptionHtml: 'What is the location or description of this?',
+		answerTitleHtml: '<strong>Milan</strong>',
+		answerDescriptionHtml: 'Location: Italy<br>Major city in northern Italy, known for fashion and finance',
+		pathToMedia: 'placeholder',
+		category: 'world-cities-landmarks-europe',
+	},
+	{
+		questionTitleHtml: '<strong>Munich</strong>',
+		questionDescriptionHtml: 'What is the location or description of this?',
+		answerTitleHtml: '<strong>Munich</strong>',
+		answerDescriptionHtml: 'Location: Germany<br>Major city in southern Germany, capital of Bavaria',
+		pathToMedia: 'placeholder',
+		category: 'world-cities-landmarks-europe',
+	},
+	{
+		questionTitleHtml: '<strong>Nice</strong>',
+		questionDescriptionHtml: 'What is the location or description of this?',
+		answerTitleHtml: '<strong>Nice</strong>',
+		answerDescriptionHtml: 'Location: France<br>City on the French Riviera',
+		pathToMedia: 'placeholder',
+		category: 'world-cities-landmarks-europe',
+	},
+	{
+		questionTitleHtml: '<strong>Venice</strong>',
+		questionDescriptionHtml: 'What is the location or description of this?',
+		answerTitleHtml: '<strong>Venice</strong>',
+		answerDescriptionHtml: 'Location: Italy<br>Historic city built on canals in northeastern Italy',
+		pathToMedia: 'placeholder',
+		category: 'world-cities-landmarks-europe',
+	},
+	{
+		questionTitleHtml: '<strong>Zurich</strong>',
+		questionDescriptionHtml: 'What is the location or description of this?',
+		answerTitleHtml: '<strong>Zurich</strong>',
+		answerDescriptionHtml: 'Location: Switzerland<br>Major city and financial center',
+		pathToMedia: 'placeholder',
+		category: 'world-cities-landmarks-europe',
+	},
+]

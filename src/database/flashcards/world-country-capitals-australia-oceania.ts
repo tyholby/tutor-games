@@ -1,0 +1,60 @@
+import type { FlashCard } from '@/types'
+
+export const world_country_capitals_australia_oceania: FlashCard[] = [
+	{
+		questionTitleHtml: '<strong>Australia</strong>',
+		questionDescriptionHtml: 'What is the capital of this country?',
+		answerTitleHtml: '<strong>Canberra</strong>',
+		answerDescriptionHtml: 'Capital of <strong>Australia</strong>',
+		pathToMedia: null,
+		category: 'world-country-capitals-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Fiji</strong>',
+		questionDescriptionHtml: 'What is the capital of this country?',
+		answerTitleHtml: '<strong>Suva</strong>',
+		answerDescriptionHtml: 'Capital of <strong>Fiji</strong>',
+		pathToMedia: null,
+		category: 'world-country-capitals-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>New Zealand</strong>',
+		questionDescriptionHtml: 'What is the capital of this country?',
+		answerTitleHtml: '<strong>Wellington</strong>',
+		answerDescriptionHtml: 'Capital of <strong>New Zealand</strong>',
+		pathToMedia: null,
+		category: 'world-country-capitals-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Papua New Guinea</strong>',
+		questionDescriptionHtml: 'What is the capital of this country?',
+		answerTitleHtml: '<strong>Port Moresby</strong>',
+		answerDescriptionHtml: 'Capital of <strong>Papua New Guinea</strong>',
+		pathToMedia: null,
+		category: 'world-country-capitals-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Samoa</strong>',
+		questionDescriptionHtml: 'What is the capital of this country?',
+		answerTitleHtml: '<strong>Apia</strong>',
+		answerDescriptionHtml: 'Capital of <strong>Samoa</strong>',
+		pathToMedia: null,
+		category: 'world-country-capitals-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Tonga</strong>',
+		questionDescriptionHtml: 'What is the capital of this country?',
+		answerTitleHtml: '<strong>Nuku\'alofa</strong>',
+		answerDescriptionHtml: 'Capital of <strong>Tonga</strong>',
+		pathToMedia: null,
+		category: 'world-country-capitals-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Vanuatu</strong>',
+		questionDescriptionHtml: 'What is the capital of this country?',
+		answerTitleHtml: '<strong>Port Vila</strong>',
+		answerDescriptionHtml: 'Capital of <strong>Vanuatu</strong>',
+		pathToMedia: null,
+		category: 'world-country-capitals-australia-oceania',
+	},
+]

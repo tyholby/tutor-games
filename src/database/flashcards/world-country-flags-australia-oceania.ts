@@ -1,0 +1,60 @@
+import type { FlashCard } from '@/types'
+
+export const world_country_flags_australia_oceania: FlashCard[] = [
+	{
+		questionTitleHtml: '<strong>What country is this flag?</strong>',
+		questionDescriptionHtml: '',
+		answerTitleHtml: '<strong>Australia</strong>',
+		answerDescriptionHtml: 'Country Flag',
+		pathToMedia: 'node_modules/svg-country-flags/svg/au.svg',
+		category: 'world-country-flags-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>What country is this flag?</strong>',
+		questionDescriptionHtml: '',
+		answerTitleHtml: '<strong>Fiji</strong>',
+		answerDescriptionHtml: 'Country Flag',
+		pathToMedia: 'node_modules/svg-country-flags/svg/fj.svg',
+		category: 'world-country-flags-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>What country is this flag?</strong>',
+		questionDescriptionHtml: '',
+		answerTitleHtml: '<strong>New Zealand</strong>',
+		answerDescriptionHtml: 'Country Flag',
+		pathToMedia: 'node_modules/svg-country-flags/svg/nz.svg',
+		category: 'world-country-flags-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>What country is this flag?</strong>',
+		questionDescriptionHtml: '',
+		answerTitleHtml: '<strong>Papua New Guinea</strong>',
+		answerDescriptionHtml: 'Country Flag',
+		pathToMedia: 'node_modules/svg-country-flags/svg/pg.svg',
+		category: 'world-country-flags-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>What country is this flag?</strong>',
+		questionDescriptionHtml: '',
+		answerTitleHtml: '<strong>Samoa</strong>',
+		answerDescriptionHtml: 'Country Flag',
+		pathToMedia: 'node_modules/svg-country-flags/svg/ws.svg',
+		category: 'world-country-flags-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>What country is this flag?</strong>',
+		questionDescriptionHtml: '',
+		answerTitleHtml: '<strong>Tonga</strong>',
+		answerDescriptionHtml: 'Country Flag',
+		pathToMedia: 'node_modules/svg-country-flags/svg/to.svg',
+		category: 'world-country-flags-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>What country is this flag?</strong>',
+		questionDescriptionHtml: '',
+		answerTitleHtml: '<strong>Vanuatu</strong>',
+		answerDescriptionHtml: 'Country Flag',
+		pathToMedia: 'node_modules/svg-country-flags/svg/vu.svg',
+		category: 'world-country-flags-australia-oceania',
+	},
+]

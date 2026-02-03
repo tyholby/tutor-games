@@ -1,0 +1,60 @@
+import type { FlashCard } from '@/types'
+
+export const world_country_locations_languages_australia_oceania: FlashCard[] = [
+	{
+		questionTitleHtml: '<strong>Australia</strong>',
+		questionDescriptionHtml: 'What is the location and principal language of this country?',
+		answerTitleHtml: '<strong>Australia</strong>',
+		answerDescriptionHtml: 'Location: Oceania<br>Principal Language: English',
+		pathToMedia: 'placeholder',
+		category: 'world-country-locations-languages-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Fiji</strong>',
+		questionDescriptionHtml: 'What is the location and principal language of this country?',
+		answerTitleHtml: '<strong>Fiji</strong>',
+		answerDescriptionHtml: 'Location: Oceania (Pacific)<br>Principal Language: English',
+		pathToMedia: 'placeholder',
+		category: 'world-country-locations-languages-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>New Zealand</strong>',
+		questionDescriptionHtml: 'What is the location and principal language of this country?',
+		answerTitleHtml: '<strong>New Zealand</strong>',
+		answerDescriptionHtml: 'Location: Oceania<br>Principal Language: English',
+		pathToMedia: 'placeholder',
+		category: 'world-country-locations-languages-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Papua New Guinea</strong>',
+		questionDescriptionHtml: 'What is the location and principal language of this country?',
+		answerTitleHtml: '<strong>Papua New Guinea</strong>',
+		answerDescriptionHtml: 'Location: Oceania<br>Principal Language: English',
+		pathToMedia: 'placeholder',
+		category: 'world-country-locations-languages-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Samoa</strong>',
+		questionDescriptionHtml: 'What is the location and principal language of this country?',
+		answerTitleHtml: '<strong>Samoa</strong>',
+		answerDescriptionHtml: 'Location: Oceania (Pacific)<br>Principal Language: Samoan',
+		pathToMedia: 'placeholder',
+		category: 'world-country-locations-languages-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Tonga</strong>',
+		questionDescriptionHtml: 'What is the location and principal language of this country?',
+		answerTitleHtml: '<strong>Tonga</strong>',
+		answerDescriptionHtml: 'Location: Oceania (Pacific)<br>Principal Language: Tongan',
+		pathToMedia: 'placeholder',
+		category: 'world-country-locations-languages-australia-oceania',
+	},
+	{
+		questionTitleHtml: '<strong>Vanuatu</strong>',
+		questionDescriptionHtml: 'What is the location and principal language of this country?',
+		answerTitleHtml: '<strong>Vanuatu</strong>',
+		answerDescriptionHtml: 'Location: Oceania (Pacific)<br>Principal Language: Bislama',
+		pathToMedia: 'placeholder',
+		category: 'world-country-locations-languages-australia-oceania',
+	},
+]
