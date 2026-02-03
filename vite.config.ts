@@ -35,6 +35,24 @@ function copySvgFlags() {
 	}
 }
 
+// Plugin to copy index.html to 404.html for GitHub Pages SPA support
+function copy404Html() {
+	return {
+		name: 'copy-404-html',
+		writeBundle() {
+			const distDir = join(process.cwd(), 'dist')
+			const indexPath = join(distDir, 'index.html')
+			const notFoundPath = join(distDir, '404.html')
+			
+			try {
+				copyFileSync(indexPath, notFoundPath)
+			} catch (error) {
+				console.warn('Could not copy index.html to 404.html:', error)
+			}
+		},
+	}
+}
+
 // https://vite.dev/config/
 export default defineConfig({
 	base: process.env.NODE_ENV === 'production' ? '/tutor-games/' : '/',
@@ -43,6 +61,7 @@ export default defineConfig({
 		vueDevTools(),
 		vuetify({ autoImport: true }),
 		copySvgFlags(),
+		copy404Html(),
 	],
 	resolve: {
 		alias: {
