@@ -106,7 +106,7 @@ export const us_state_flags: FlashCard[] = [
 		pathToMedia: 'http://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_Idaho.svg',
 		category: 'us-state-flags',
 		censorBlocks: [
-			{ top: '44%', left: '58%', width: '7%', height: '17%' }, // "IDAHO" text
+			{ top: '44%', left: '56%', width: '7%', height: '17%' }, // "IDAHO" text
 			{ top: '75%', left: '53%', width: '13%', height: '8%' }, // "IDAHO" text
 		],
 	},
