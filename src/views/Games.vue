@@ -31,20 +31,21 @@ const handleGameComplete = () => {
 </script>
 
 <template>
-<v-container fluid class="fill-height gradient-bg pa-0">
-	<v-row justify="center" align="center" class="fill-height ma-0">
+<v-container fluid class="fill-height gradient-bg">
+	<v-row justify="center" align="center" class="fill-height">
 		<v-col cols="12" sm="11" md="10" lg="9" xl="8">
-			<v-card elevation="24" rounded="xl" class="mx-4">
+			<v-card elevation="24" rounded="xl">
 				<div class="d-flex align-center pa-4 pa-sm-6 pb-0">
 					<v-btn
 						icon
 						@click="goBack"
 						variant="text"
 						size="large"
+						class="flex-shrink-0"
 					>
 						<v-icon>mdi-arrow-left</v-icon>
 					</v-btn>
-					<v-card-title class="text-h5 text-sm-h4 text-center flex-grow-1 pa-0 pr-12">
+					<v-card-title class="text-h6 text-sm-h5 text-md-h4 text-center flex-grow-1 pa-0 px-2 px-sm-4">
 						{{ selectedGame?.title || 'Game' }}
 					</v-card-title>
 				</div>

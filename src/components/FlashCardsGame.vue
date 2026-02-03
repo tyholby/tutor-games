@@ -432,6 +432,7 @@ const getMediaUrl = (path: string | null): string | null => {
 .main-content {
 	flex: 1;
 	min-width: 0;
+    width: 100%;
 }
 
 .progress-section {

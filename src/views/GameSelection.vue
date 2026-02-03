@@ -16,11 +16,11 @@ const selectGame = (gameKey: string) => {
 </script>
 
 <template>
-	<v-container fluid class="fill-height gradient-bg pa-0">
-		<v-row justify="center" align="center" class="fill-height ma-0">
+	<v-container fluid class="fill-height gradient-bg">
+		<v-row justify="center" align="center" class="fill-height">
 			<v-col cols="12" sm="10" md="8" lg="6" xl="5">
-			    <v-card elevation="24" rounded="xl" class="mx-4">
-					<v-card-title class="text-h5 text-sm-h4 text-center pa-6 pa-sm-8 pb-4 text-wrap">
+			    <v-card elevation="24" rounded="xl">
+					<v-card-title class="text-h6 text-sm-h5 text-md-h4 text-center pa-4 pa-sm-6 pb-4 text-wrap">
 						Which game do you want to play?
 					</v-card-title>
 					

@@ -84,47 +84,93 @@ const goBack = () => {
 const goToGames = () => {
 	router.push({ name: 'Games' })
 }
+
+// Helper functions for group-level select all
+const getGroupAvailableUnits = (groupUnits: Unit[]) => {
+	return groupUnits.filter((u: Unit) => !u.comingSoon)
+}
+
+const isGroupAllSelected = (groupUnits: Unit[]) => {
+	const availableKeys = getGroupAvailableUnits(groupUnits).map((u: Unit) => u.key)
+	return availableKeys.length > 0 && availableKeys.every(key => selectedUnitKeys.value.includes(key))
+}
+
+const isGroupSomeSelected = (groupUnits: Unit[]) => {
+	const availableKeys = getGroupAvailableUnits(groupUnits).map((u: Unit) => u.key)
+	const selectedAvailable = availableKeys.filter(key => selectedUnitKeys.value.includes(key))
+	return selectedAvailable.length > 0 && selectedAvailable.length < availableKeys.length
+}
+
+const toggleSelectGroup = (groupUnits: Unit[]) => {
+	const availableKeys = getGroupAvailableUnits(groupUnits).map((u: Unit) => u.key)
+	const groupSelectedKeys = availableKeys.filter(key => selectedUnitKeys.value.includes(key))
+	
+	if (groupSelectedKeys.length === availableKeys.length) {
+		// Deselect all in this group
+		const newSelected = selectedUnitKeys.value.filter(key => !availableKeys.includes(key))
+		unitsStore.setSelectedUnitKeys(newSelected)
+	} else {
+		// Select all in this group (add to existing selection)
+		const newSelected = Array.from(new Set([...selectedUnitKeys.value, ...availableKeys]))
+		unitsStore.setSelectedUnitKeys(newSelected)
+	}
+}
 </script>
 
 <template>
-	<v-container fluid class="fill-height gradient-bg pa-0">
-		<v-row justify="center" align="center" class="fill-height ma-0">
+	<v-container fluid class="fill-height gradient-bg">
+		<v-row justify="center" align="center" class="fill-height">
 			<v-col cols="12" sm="10" md="8" lg="6" xl="5">
-				<v-card elevation="24" rounded="xl" class="mx-4">
+				<v-card elevation="24" rounded="xl">
 					<div class="d-flex align-center pa-4 pa-sm-6 pb-0">
 						<v-btn
 							icon
 							@click="goBack"
 							variant="text"
 							size="large"
+							class="flex-shrink-0"
 						>
 							<v-icon>mdi-arrow-left</v-icon>
 						</v-btn>
-						<v-card-title class="text-h5 text-sm-h4 text-center flex-grow-1 pa-0 pr-12">
+						<v-card-title class="text-h6 text-sm-h5 text-md-h4 text-center flex-grow-1 pa-0 px-2 px-sm-4">
 							What do you want to study?
 						</v-card-title>
 					</div>
 
 					<v-card-text class="px-4 px-sm-8 pb-6 pt-4">
-						<v-checkbox
-							v-if="isMultipleUnits && availableUnits.length > 0"
-							:model-value="allSelected"
-							:indeterminate="someSelected"
-							@click="toggleSelectAll"
-							color="primary"
-							:label="allSelected ? 'Deselect all' : 'Select all'"
-							hide-details
-							density="comfortable"
-							class="select-all-checkbox mb-6"
-						/>
+						<div v-if="isMultipleUnits && availableUnits.length > 0" class="d-flex justify-end mb-6">
+							<v-checkbox
+								:model-value="allSelected"
+								:indeterminate="someSelected"
+								@click="toggleSelectAll"
+								color="primary"
+								:label="allSelected ? 'Deselect all' : 'Select all'"
+								hide-details
+								density="comfortable"
+								class="select-all-checkbox-top"
+							/>
+						</div>
 
 						<v-divider v-if="isMultipleUnits" class="mb-6" />
 
 						<div class="units-list">
 							<!-- Units with headers -->
 							<template v-for="(group, index) in groupedUnits.headerGroups" :key="group.header">
-								<div class="unit-header" :class="{ 'mt-0': index === 0 }">
-									<span>{{ group.header }}</span>
+								<div class="d-flex align-center justify-space-between mb-2" :class="{ 'mt-0': index === 0 }">
+									<div class="unit-header">
+										<span>{{ group.header }}</span>
+									</div>
+									<v-checkbox
+										v-if="isMultipleUnits && getGroupAvailableUnits(group.units).length > 0"
+										:model-value="isGroupAllSelected(group.units)"
+										:indeterminate="isGroupSomeSelected(group.units)"
+										@click="toggleSelectGroup(group.units)"
+										color="primary"
+										:label="isGroupAllSelected(group.units) ? 'Deselect all' : 'Select all'"
+										hide-details
+										density="compact"
+										class="group-select-all-checkbox"
+									/>
 								</div>
 								<div v-if="isMultipleUnits" class="mb-2">
 									<v-list class="py-0 bg-transparent">
@@ -167,6 +213,21 @@ const goToGames = () => {
 							
 							<!-- Units without headers -->
 							<template v-if="groupedUnits.noHeader.length > 0">
+								<div v-if="isMultipleUnits && getGroupAvailableUnits(groupedUnits.noHeader).length > 0" class="d-flex align-center justify-space-between mb-2">
+									<div class="unit-header">
+										<span>Other</span>
+									</div>
+									<v-checkbox
+										:model-value="isGroupAllSelected(groupedUnits.noHeader)"
+										:indeterminate="isGroupSomeSelected(groupedUnits.noHeader)"
+										@click="toggleSelectGroup(groupedUnits.noHeader)"
+										color="primary"
+										:label="isGroupAllSelected(groupedUnits.noHeader) ? 'Deselect all' : 'Select all'"
+										hide-details
+										density="compact"
+										class="group-select-all-checkbox"
+									/>
+								</div>
 								<div v-if="isMultipleUnits">
 									<v-list class="py-0 bg-transparent">
 										<v-list-item
@@ -235,16 +296,24 @@ const goToGames = () => {
 	min-height: 100vh;
 }
 
-.unit-checkbox :deep(.v-label),
-.select-all-checkbox :deep(.v-label) {
+.unit-checkbox :deep(.v-label) {
 	font-size: 1.125rem;
 	font-weight: 500;
 	opacity: 1;
 }
 
-.unit-checkbox :deep(.v-selection-control__input),
-.select-all-checkbox :deep(.v-selection-control__input) {
+.unit-checkbox :deep(.v-selection-control__input) {
 	transform: scale(1.4);
+}
+
+.select-all-checkbox-top :deep(.v-label) {
+	font-size: 1.25rem;
+	font-weight: 600;
+	opacity: 1;
+}
+
+.select-all-checkbox-top :deep(.v-selection-control__input) {
+	transform: scale(1.6);
 }
 
 .unit-button {
@@ -271,5 +340,15 @@ const goToGames = () => {
 	letter-spacing: 0.5px;
 	color: rgba(var(--v-theme-on-surface), 0.6);
 	font-weight: 600;
+}
+
+.group-select-all-checkbox :deep(.v-label) {
+	font-size: 0.875rem;
+	font-weight: 500;
+	opacity: 1;
+}
+
+.group-select-all-checkbox :deep(.v-selection-control__input) {
+	transform: scale(1.2);
 }
 </style>
