@@ -189,19 +189,12 @@ const getMediaUrl = (path: string | null): string | null => {
 		return path
 	}
 	
-	// If it's a node_modules path, prepend with / to make it a public path
-	if (path.startsWith('node_modules/')) {
-		return `/${path}`
-	}
+	// Get the base URL from Vite (includes /tutor-games/ in production)
+	const baseUrl = import.meta.env.BASE_URL
 	
-	// For local assets starting with src/, try to resolve
-	if (path.startsWith('src/')) {
-		// Try to resolve as a module
-		return path
-	}
-	
-	// Return as is for other paths
-	return path
+	// Remove leading slash if present, then add base URL
+	const cleanPath = path.startsWith('/') ? path.slice(1) : path
+	return `${baseUrl}${cleanPath}`
 }
 </script>
 
