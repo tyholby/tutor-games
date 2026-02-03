@@ -55,7 +55,8 @@ function copy404Html() {
 
 // https://vite.dev/config/
 export default defineConfig({
-	base: process.env.NODE_ENV === 'production' ? '/tutor-games/' : '/',
+	// Use custom domain base path if set, otherwise use GitHub Pages path
+	base: process.env.VITE_BASE_PATH || (process.env.NODE_ENV === 'production' ? '/tutor-games/' : '/'),
 	plugins: [
 		vue(),
 		vueDevTools(),
