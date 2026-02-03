@@ -20,6 +20,7 @@ const emit = defineEmits<{
 const cards = ref<CardWithId[]>([])
 const queue = ref<CardWithId[]>([])
 const doneCards = ref<Set<string>>(new Set())
+const missedCards = ref<Set<string>>(new Set()) // Track cards that have been missed at least once
 const currentCard = ref<CardWithId | null>(null)
 const isFlipped = ref(false)
 const isCompleting = ref(false)
@@ -31,6 +32,7 @@ interface ActionHistory {
 	card: CardWithId
 	queueBefore: CardWithId[]
 	doneCardsBefore: Set<string>
+	missedCardsBefore: Set<string>
 }
 
 const actionHistory = ref<ActionHistory[]>([])
@@ -100,21 +102,33 @@ const handleWrong = () => {
 	// Save state for undo
 	const queueBefore = [...queue.value]
 	const doneCardsBefore = new Set(doneCards.value)
+	const missedCardsBefore = new Set(missedCards.value)
 	actionHistory.value.push({
 		type: 'wrong',
 		card,
 		queueBefore,
 		doneCardsBefore,
+		missedCardsBefore,
 	})
 	
 	// Wait for flip animation to complete before changing card
 	setTimeout(() => {
-		// Remove from front of queue
+		// Mark card as missed
+		missedCards.value.add(card.id)
+		
+		// Remove from current position in queue
 		const remainingCards = queue.value.filter(c => c.id !== card.id)
 		
-		// Shuffle the wrong card back into the remaining cards at the end
-		const cardsToShuffle = [...remainingCards, card]
-		queue.value = _shuffle(cardsToShuffle)
+		// Separate cards into: not missed vs missed
+		const notMissedCards = remainingCards.filter(c => !missedCards.value.has(c.id))
+		const missedCardsList = remainingCards.filter(c => missedCards.value.has(c.id))
+		
+		// Add the current wrong card to missed cards and shuffle them together
+		const allMissedCards = [...missedCardsList, card]
+		const shuffledMissed = _shuffle(allMissedCards)
+		
+		// Put not-missed cards first, then shuffled missed cards at the end
+		queue.value = [...notMissedCards, ...shuffledMissed]
 		
 		// Move to next card
 		if (queue.value.length > 0) {
@@ -132,11 +146,13 @@ const handleRight = () => {
 	// Save state for undo
 	const queueBefore = [...queue.value]
 	const doneCardsBefore = new Set(doneCards.value)
+	const missedCardsBefore = new Set(missedCards.value)
 	actionHistory.value.push({
 		type: 'right',
 		card,
 		queueBefore,
 		doneCardsBefore,
+		missedCardsBefore,
 	})
 	
 	// Wait for flip animation to complete before changing card
@@ -168,6 +184,7 @@ const handleUndo = () => {
 	// Restore previous state
 	queue.value = lastAction.queueBefore
 	doneCards.value = new Set(lastAction.doneCardsBefore)
+	missedCards.value = new Set(lastAction.missedCardsBefore)
 	
 	// Set current card to the one that was just undone
 	currentCard.value = lastAction.card
