@@ -70,7 +70,7 @@ export const games: Game[] = [
 	{
 		key: GAME_KEYS.FLASH_CARDS,
 		title: 'Study Guide Flash Cards',
-		description: 'Study geography terms, flags, locations, and landmarks with interactive flash cards',
+		description: 'Study geography terms, flags, map study, and landmarks with interactive flash cards',
 		icon: 'mdi-cards',
 		isMultipleUnits: true,
 	},
@@ -133,9 +133,8 @@ export const units: Unit[] = [
 	},
 	{
 		key: 'flash-cards-us-state-locations-nicknames',
-		label: 'US State Locations & Nicknames',
+		label: 'US State Map Study & Nicknames',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
-		comingSoon: true,
 		header: 'United States',
 	},
 	{
@@ -188,48 +187,47 @@ export const units: Unit[] = [
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
 		header: 'World Country Flags',
 	},
-	// World Country Locations & Languages by Continent
+	// World Country Map Study & Languages by Continent
 	{
 		key: 'flash-cards-world-country-locations-languages-north-america',
-		label: 'World Country Locations & Languages - North America',
+		label: 'World Country Map Study & Languages - North America',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
 		comingSoon: true,
-		header: 'World Country Locations & Languages',
+		header: 'World Country Map Study & Languages',
 	},
 	{
 		key: 'flash-cards-world-country-locations-languages-south-america',
-		label: 'World Country Locations & Languages - South America',
+		label: 'World Country Map Study & Languages - South America',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
 		comingSoon: true,
-		header: 'World Country Locations & Languages',
+		header: 'World Country Map Study & Languages',
 	},
 	{
 		key: 'flash-cards-world-country-locations-languages-europe',
-		label: 'World Country Locations & Languages - Europe',
+		label: 'World Country Map Study & Languages - Europe',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
 		comingSoon: true,
-		header: 'World Country Locations & Languages',
+		header: 'World Country Map Study & Languages',
 	},
 	{
 		key: 'flash-cards-world-country-locations-languages-asia',
-		label: 'World Country Locations & Languages - Asia',
+		label: 'World Country Map Study & Languages - Asia',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
 		comingSoon: true,
-		header: 'World Country Locations & Languages',
+		header: 'World Country Map Study & Languages',
 	},
 	{
 		key: 'flash-cards-world-country-locations-languages-africa',
-		label: 'World Country Locations & Languages - Africa',
+		label: 'World Country Map Study & Languages - Africa',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
-		comingSoon: true,
-		header: 'World Country Locations & Languages',
+		header: 'World Country Map Study & Languages',
 	},
 	{
 		key: 'flash-cards-world-country-locations-languages-australia-oceania',
-		label: 'World Country Locations & Languages - Australia (Oceania)',
+		label: 'World Country Map Study & Languages - Australia (Oceania)',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
 		comingSoon: true,
-		header: 'World Country Locations & Languages',
+		header: 'World Country Map Study & Languages',
 	},
 	// World Cities & Landmarks by Continent
 	{
@@ -479,7 +477,7 @@ export const studyGuideFlashCards: FlashCard[] = [
 	...world_country_flags_asia,
 	...world_country_flags_africa,
 	...world_country_flags_australia_oceania,
-	// World country locations & languages by continent
+	// World country Map Study & languages by continent
 	...world_country_locations_languages_north_america,
 	...world_country_locations_languages_south_america,
 	...world_country_locations_languages_europe,
