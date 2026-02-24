@@ -6,7 +6,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Facility where aircraft take off and land, with runways and terminals',
 		answerTitleHtml: '<strong>Airport</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Airport_infrastructure.png/500px-Airport_infrastructure.png',
+		pathToMedia: 'images/geographic-terms/airport.png',
 		category: 'geographic-terms',
 	},
 	{
@@ -14,7 +14,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Height of a location above sea level',
 		answerTitleHtml: '<strong>Altitude</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Altitude.svg/250px-Altitude.svg.png',
+		pathToMedia: 'images/geographic-terms/altitude.png',
 		category: 'geographic-terms',
 	},
 	{
@@ -22,7 +22,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Group or chain of islands<br/><br/><strong>Examples:</strong> Hawaii; the Philippines; Indonesia',
 		answerTitleHtml: '<strong>Archipelago</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Indonesia_relief_location_map.jpg',
+		pathToMedia: 'images/geographic-terms/archipelago.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -30,7 +30,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Region around the North Pole, characterized by cold temperatures and ice',
 		answerTitleHtml: '<strong>Arctic Region</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Arctic_%28orthographic_projection_with_highlights%29.svg/330px-Arctic_%28orthographic_projection_with_highlights%29.svg.png',
+		pathToMedia: 'images/geographic-terms/arctic-region.png',
 		category: 'geographic-terms',
 	},
 	{
@@ -38,7 +38,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Narrow extension, inlet, or smaller reach, of water flowing out from a much larger body of water, such as an ocean, a sea, or a lake',
 		answerTitleHtml: '<strong>Arm</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/en/5/53/ShuswapArms.png',
+		pathToMedia: 'images/geographic-terms/arm.png',
 		category: 'geographic-terms',
 	},
 	{
@@ -54,7 +54,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Ring-shaped coral reef, island, or series of islets surrounding a lagoon<br/><br/><strong>Examples:</strong> Bikini (Marshall Islands); the Maldives',
 		answerTitleHtml: '<strong>Atoll</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tetiaroa_from_sky.JPG/1920px-Tetiaroa_from_sky.JPG',
+		pathToMedia: 'images/geographic-terms/atoll.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -62,7 +62,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Imaginary line through the center of a planet around which it rotates',
 		answerTitleHtml: '<strong>Axis</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/0/02/Rotating_Sphere.gif',
+		pathToMedia: 'images/geographic-terms/axis.gif',
 		category: 'geographic-terms',
 	},
 	{
@@ -70,7 +70,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Land alongside a river, lake, or other body of water',
 		answerTitleHtml: '<strong>Bank</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Perfume_River_Bank%2C_as_seen_from_Tr%C6%B0%E1%BB%9Dng_Ti%E1%BB%81n_Bridge%2C_2019.jpg/250px-Perfume_River_Bank%2C_as_seen_from_Tr%C6%B0%E1%BB%9Dng_Ti%E1%BB%81n_Bridge%2C_2019.jpg',
+		pathToMedia: 'images/geographic-terms/bank.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -78,7 +78,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Depression in the Earth\'s surface, often containing water',
 		answerTitleHtml: '<strong>Basin</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Uureg_Nuur.jpg/1280px-Uureg_Nuur.jpg',
+		pathToMedia: 'images/geographic-terms/basin.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -86,7 +86,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Body of water partially enclosed by land, smaller than a gulf<br/><br/><strong>Examples:</strong> Hudson (Canada); San Francisco (California)',
 		answerTitleHtml: '<strong>Bay</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/b/b7/San_Sebastian_aerea.jpg',
+		pathToMedia: 'images/geographic-terms/bay.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -94,7 +94,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Sandy or pebbly shore of a body of water',
 		answerTitleHtml: '<strong>Beach</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Beach_at_Fort_Lauderdale.jpg/1920px-Beach_at_Fort_Lauderdale.jpg',
+		pathToMedia: 'images/geographic-terms/beach.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -102,7 +102,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Slow-moving stream or a marshy lake, especially in the southern United States',
 		answerTitleHtml: '<strong>Bayou</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Atchafalaya_Basin.jpg',
+		pathToMedia: 'images/geographic-terms/bayou.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -110,7 +110,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Large community of plants and animals that occupies a distinct region',
 		answerTitleHtml: '<strong>Biome</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Vegetation.png',
+		pathToMedia: 'images/geographic-terms/biome.png',
 		category: 'geographic-terms',
 	},
 	{
@@ -118,7 +118,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Barrier built to protect a harbor or beach from the force of waves',
 		answerTitleHtml: '<strong>Breakwater</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/7/75/V%C3%A5gbrytare_-_Ystad-2019.jpg',
+		pathToMedia: 'images/geographic-terms/breakwater.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -126,7 +126,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Isolated hill with steep sides and a flat top, smaller than a mesa',
 		answerTitleHtml: '<strong>Butte</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/e/e6/Monument_Valley%2C_late_afternoon.jpg',
+		pathToMedia: 'images/geographic-terms/butte.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -134,7 +134,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Artificial waterway constructed for navigation, irrigation, or drainage',
 		answerTitleHtml: '<strong>Canal</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/IMG_RoyalCanalnrKinnegad5706w.jpg/1920px-IMG_RoyalCanalnrKinnegad5706w.jpg',
+		pathToMedia: 'images/geographic-terms/canal.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -142,7 +142,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Deep, narrow valley with steep sides, often carved by a river<br/><br/><strong>Examples:</strong> Grand (Arizona); Colca (Peru)',
 		answerTitleHtml: '<strong>Canyon</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Aerial_view_of_canyons.jpg/960px-Aerial_view_of_canyons.jpg',
+		pathToMedia: 'images/geographic-terms/canyon.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -150,7 +150,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Point of land extending into a body of water<br/><br/><strong>Examples:</strong> Cod (Massachusetts)',
 		answerTitleHtml: '<strong>Cape</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Astronaut_photo_of_Cape_Town_STS081-738-23.jpg/1280px-Astronaut_photo_of_Cape_Town_STS081-738-23.jpg',
+		pathToMedia: 'images/geographic-terms/cape.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -158,7 +158,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Natural underground chamber or series of chambers',
 		answerTitleHtml: '<strong>Cave</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Lechuguilla_Cave_Pearlsian_Gulf.jpg/960px-Lechuguilla_Cave_Pearlsian_Gulf.jpg',
+		pathToMedia: 'images/geographic-terms/cave.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -166,7 +166,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Wider strait or passage of water connecting two larger bodies of water',
 		answerTitleHtml: '<strong>Channel</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Vivari_Channel.jpg',
+		pathToMedia: 'images/geographic-terms/channel.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -174,7 +174,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Steep, high face of rock or earth',
 		answerTitleHtml: '<strong>Cliff</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/White_Cliffs_of_Dover_02.JPG/1920px-White_Cliffs_of_Dover_02.JPG',
+		pathToMedia: 'images/geographic-terms/cliff.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -214,7 +214,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Symbol on a map showing the cardinal directions (north, south, east, west)',
 		answerTitleHtml: '<strong>Compass Rose</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Windrose_en.svg/1280px-Windrose_en.svg.png',
+		pathToMedia: 'images/geographic-terms/compass-rose.png',
 		category: 'geographic-terms',
 	},
 	{
@@ -222,7 +222,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Ridge of mountains that separates river systems flowing toward opposite sides of a continent',
 		answerTitleHtml: '<strong>Continental Divide</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/SouthAmerica-ContinentalDivide.png',
+		pathToMedia: 'images/geographic-terms/continental-divide.png',
 		category: 'geographic-terms',
 	},
 	{
@@ -246,7 +246,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Small, sheltered bay or inlet',
 		answerTitleHtml: '<strong>Cove</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/8/89/McWay_cove_1.jpg',
+		pathToMedia: 'images/geographic-terms/cove.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -278,7 +278,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Landform at the mouth of a river where it flows into a larger body of water, typically triangular in shape<br/><br/><strong>Examples:</strong> Nile (Egypt); Mississippi (Louisiana)',
 		answerTitleHtml: '<strong>Delta</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Nile_delta_landsat_false_color.jpg',
+		pathToMedia: 'images/geographic-terms/delta.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -294,7 +294,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Embankment, wall, or trench constructed from earth or stone to manage water flow, prevent flooding, and reclaim land from the sea or rivers',
 		answerTitleHtml: '<strong>Dike</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://images.pond5.com/dike-water-works-man-made-footage-309290836_iconl.jpeg',
+		pathToMedia: 'images/geographic-terms/dike.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -318,7 +318,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Area of land where all surface water converges to a single point',
 		answerTitleHtml: '<strong>Drainage Basin</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Major_River_Systems_within_the_Mississippi_River_Basin.svg/1920px-Major_River_Systems_within_the_Mississippi_River_Basin.svg.png',
+		pathToMedia: 'images/geographic-terms/drainage-basin.png',
 		category: 'geographic-terms',
 	},
 	{
@@ -342,7 +342,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Tidal mouth of a large river, where the tide meets the stream',
 		answerTitleHtml: '<strong>Estuary</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/2/22/Mattole_River_Estuary_2005.jpg',
+		pathToMedia: 'images/geographic-terms/estuary.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -358,7 +358,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Long, narrow, deep inlet of the sea between high cliffs, typically formed by glacial erosion<br/><br/><strong>Examples:</strong> Norway\'s',
 		answerTitleHtml: '<strong>Fjord</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Geirangerfjord_%286-2007%29.jpg/500px-Geirangerfjord_%286-2007%29.jpg',
+		pathToMedia: 'images/geographic-terms/fjord.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -366,7 +366,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Shallow place in a river or stream where one can cross by wading or drive over with their car',
 		answerTitleHtml: '<strong>Ford</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Rawney_Ford_%28geograph_4388083%29.jpg',
+		pathToMedia: 'images/geographic-terms/ford.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -398,7 +398,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Slow-moving mass of ice formed from compacted snow<br/><br/><strong>Examples:</strong> Mendenhall (Alaska)',
 		answerTitleHtml: '<strong>Glacier</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Geikie_Plateau_Glacier.JPG',
+		pathToMedia: 'images/geographic-terms/glacier.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -446,7 +446,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Narrow piece of land that projects from a coastline into the sea',
 		answerTitleHtml: '<strong>Headland</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/0/07/Land%27s_End_-_geograph.org.uk_-_171343.jpg',
+		pathToMedia: 'images/geographic-terms/headland.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -542,7 +542,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Narrow strip of land connecting two larger land areas<br/><br/><strong>Examples:</strong> Panama land bridge',
 		answerTitleHtml: '<strong>Isthmus</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/The_Neck_Bruny_Island.jpg/960px-The_Neck_Bruny_Island.jpg',
+		pathToMedia: 'images/geographic-terms/isthmus.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -566,7 +566,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Shallow body of water separated from a larger body of water by barrier islands or reefs<br/><br/><strong>Examples:</strong> Venice (Italy)',
 		answerTitleHtml: '<strong>Lagoon</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Venice_Lagoon_December_9_2001.jpg/1280px-Venice_Lagoon_December_9_2001.jpg',
+		pathToMedia: 'images/geographic-terms/lagoon.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -598,7 +598,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Embankment built to prevent the overflow of a river',
 		answerTitleHtml: '<strong>Levee</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/GretnaLevee.jpg/1920px-GretnaLevee.jpg',
+		pathToMedia: 'images/geographic-terms/levee.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -606,7 +606,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Enclosed sections of a canal or river with gates to raise or lower water levels for navigation<br/><br/><strong>Examples:</strong> Panana Canal',
 		answerTitleHtml: '<strong>Locks</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Panama_Canal_Gatun_Locks.jpg',
+		pathToMedia: 'images/geographic-terms/locks.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -646,7 +646,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Flat-topped hill with steep sides, larger than a butte',
 		answerTitleHtml: '<strong>Mesa</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Over_Monument_Valley%2C_Navajo_Nation.jpg/1920px-Over_Monument_Valley%2C_Navajo_Nation.jpg',
+		pathToMedia: 'images/geographic-terms/mesa.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -742,7 +742,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Piece of land almost surrounded by water or projecting into a body of water<br/><br/><strong>Examples:</strong> Florida; Italy',
 		answerTitleHtml: '<strong>Peninsula</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/SeventeenSeventyNov082024_01.jpg/1920px-SeventeenSeventyNov082024_01.jpg',
+		pathToMedia: 'images/geographic-terms/peninsula.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -758,7 +758,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Gentle slope leading from the base of mountains to a region of flat land',
 		answerTitleHtml: '<strong>Piedmont</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://i0.wp.com/rei-ink.com/wp-content/uploads/2022/07/Piedmont.jpg?fit=700%2C408&ssl=1',
+		pathToMedia: 'images/geographic-terms/piedmont.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -782,7 +782,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Elevated flat area of land, higher than surrounding land<br/><br/><strong>Examples:</strong> Colorado (Four Corners region); Tibet',
 		answerTitleHtml: '<strong>Plateau</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Pajarito_Plateau.jpg',
+		pathToMedia: 'images/geographic-terms/plateau.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -926,7 +926,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Ridge of sand built up by currents in a river or along a shore',
 		answerTitleHtml: '<strong>Sandbar</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://www.boatsetter.com/boating-resources/wp-content/uploads/2023/02/what-is-a-sandbar-party-1120x580.jpg.webp',
+		pathToMedia: 'images/geographic-terms/sandbar.webp',
 		category: 'geographic-terms',
 	},
 	{
@@ -982,7 +982,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Shallow place in a body of water, such as a sandbank or sandbar',
 		answerTitleHtml: '<strong>Shoal</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/WayaWayasewa.jpg/960px-WayaWayasewa.jpg',
+		pathToMedia: 'images/geographic-terms/shoal.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -1006,7 +1006,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Elevation above which snow remains year-round',
 		answerTitleHtml: '<strong>Snowline</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Cotopaxi_volcano_2008-06-27T1322.jpg',
+		pathToMedia: 'images/geographic-terms/snowline.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -1038,7 +1038,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Narrow point of land extending into a body of water',
 		answerTitleHtml: '<strong>Spit</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Accreting_coast_Image6.svg/3840px-Accreting_coast_Image6.svg.png',
+		pathToMedia: 'images/geographic-terms/spit.png',
 		category: 'geographic-terms',
 	},
 	{
@@ -1046,7 +1046,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Large area of flat unforested grassland in southeastern Europe or Siberia',
 		answerTitleHtml: '<strong>Steppe</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Eurasian_steppe_belt.jpg/1920px-Eurasian_steppe_belt.jpg',
+		pathToMedia: 'images/geographic-terms/steppe.jpg',
 		category: 'geographic-terms',
 	},
 	{
@@ -1054,7 +1054,7 @@ export const geographicTerms: FlashCard[] = [
 		questionDescriptionHtml: 'Narrow passage of water connecting two larger bodies of water<br/><br/><strong>Examples:</strong> Golden Gate; Gibraltar',
 		answerTitleHtml: '<strong>Strait</strong>',
 		answerDescriptionHtml: null,
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/STS059-238-074_Strait_of_Gibraltar.jpg/1280px-STS059-238-074_Strait_of_Gibraltar.jpg',
+		pathToMedia: 'images/geographic-terms/strait.jpg',
 		category: 'geographic-terms',
 	},
 	{

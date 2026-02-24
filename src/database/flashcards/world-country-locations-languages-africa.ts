@@ -6,7 +6,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Algeria</strong>',
 		answerDescriptionHtml: 'Location: North Africa<br>Principal Language: Arabic',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Algeria_%28centered_orthographic_projection%29.svg/250px-Algeria_%28centered_orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/algeria.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -14,7 +14,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Angola</strong>',
 		answerDescriptionHtml: 'Location: Southern Africa<br>Principal Language: Portuguese',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Angola_%28orthographic_projection%29.svg/250px-Angola_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/angola.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -22,7 +22,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Botswana</strong>',
 		answerDescriptionHtml: 'Location: Southern Africa<br>Principal Language: English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Botswana_%28centered_orthographic_projection%29.svg/250px-Botswana_%28centered_orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/botswana.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -30,7 +30,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Burundi</strong>',
 		answerDescriptionHtml: 'Location: East Africa<br>Principal Language: Kirundi',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Burundi_%28orthographic_projection%29.svg/250px-Burundi_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/burundi.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -38,7 +38,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Central African Republic</strong>',
 		answerDescriptionHtml: 'Location: Central Africa<br>Principal Language: French',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Central_African_Republic_%28centered_orthographic_projection%29.svg/250px-Central_African_Republic_%28centered_orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/central-african-republic.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -46,7 +46,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Chad</strong>',
 		answerDescriptionHtml: 'Location: Central Africa<br>Principal Language: French, Arabic',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Chad_%28orthographic_projection%29.svg/250px-Chad_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/chad.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -54,7 +54,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Democratic Republic of the Congo</strong>',
 		answerDescriptionHtml: 'Location: Central Africa<br>Principal Language: French',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg/250px-Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/democratic-republic-of-the-congo.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -62,7 +62,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Egypt</strong>',
 		answerDescriptionHtml: 'Location: North Africa/Middle East<br>Principal Language: Arabic',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/EGY_orthographic.svg/250px-EGY_orthographic.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/egypt.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -70,7 +70,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Ethiopia</strong>',
 		answerDescriptionHtml: 'Location: East Africa<br>Principal Language: Amharic',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ethiopia_%28Africa_orthographic_projection%29.svg/250px-Ethiopia_%28Africa_orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/ethiopia.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -78,7 +78,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Ghana</strong>',
 		answerDescriptionHtml: 'Location: West Africa<br>Principal Language: English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ghana_%28orthographic_projection%29.svg/250px-Ghana_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/ghana.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -86,7 +86,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Guinea</strong>',
 		answerDescriptionHtml: 'Location: West Africa<br>Principal Language: French',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Guinea_%28orthographic_projection%29.svg/250px-Guinea_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/guinea.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -94,7 +94,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Kenya</strong>',
 		answerDescriptionHtml: 'Location: East Africa<br>Principal Language: Swahili, English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Kenya_%28orthographic_projection%29.svg/250px-Kenya_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/kenya.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -102,7 +102,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Liberia</strong>',
 		answerDescriptionHtml: 'Location: West Africa<br>Principal Language: English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Liberia_%28orthographic_projection%29.svg/250px-Liberia_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/liberia.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -110,7 +110,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Libya</strong>',
 		answerDescriptionHtml: 'Location: North Africa<br>Principal Language: Arabic',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Libya_%28centered_orthographic_projection%29.svg/250px-Libya_%28centered_orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/libya.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -118,7 +118,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Madagascar</strong>',
 		answerDescriptionHtml: 'Location: East Africa (Indian Ocean)<br>Principal Language: Malagasy, French',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Madagascar_%28centered_orthographic_projection%29.svg/250px-Madagascar_%28centered_orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/madagascar.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -126,7 +126,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Mali</strong>',
 		answerDescriptionHtml: 'Location: West Africa<br>Principal Language: French',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mali_%28orthographic_projection%29.svg/250px-Mali_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/mali.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -134,7 +134,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Morocco</strong>',
 		answerDescriptionHtml: 'Location: North Africa<br>Principal Language: Arabic',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Morocco_%28orthographic_projection%2C_WS_claimed%29.svg/250px-Morocco_%28orthographic_projection%2C_WS_claimed%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/morocco.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -142,7 +142,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Mozambique</strong>',
 		answerDescriptionHtml: 'Location: Southeast Africa<br>Principal Language: Portuguese',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Mozambique_%28orthographic_projection%29.svg/250px-Mozambique_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/mozambique.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -150,7 +150,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Niger</strong>',
 		answerDescriptionHtml: 'Location: West Africa<br>Principal Language: French',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Niger_%28orthographic_projection%29.svg/250px-Niger_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/niger.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -158,7 +158,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Nigeria</strong>',
 		answerDescriptionHtml: 'Location: West Africa<br>Principal Language: English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nigeria_%28orthographic_projection%29.svg/250px-Nigeria_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/nigeria.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -166,7 +166,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Republic of the Congo</strong>',
 		answerDescriptionHtml: 'Location: Central Africa<br>Principal Language: French',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Republic_of_the_Congo_%28orthographic_projection%29.svg/250px-Republic_of_the_Congo_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/republic-of-the-congo.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -174,7 +174,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Rwanda</strong>',
 		answerDescriptionHtml: 'Location: East Africa<br>Principal Language: Kinyarwanda',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Rwanda_%28orthographic_projection_with_locator%29.svg/250px-Rwanda_%28orthographic_projection_with_locator%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/rwanda.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -182,7 +182,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Somalia</strong>',
 		answerDescriptionHtml: 'Location: East Africa<br>Principal Language: Somali',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Somalia_svg_map.svg/250px-Somalia_svg_map.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/somalia.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -190,7 +190,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>South Africa</strong>',
 		answerDescriptionHtml: 'Location: Southern Africa<br>Principal Language: English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/South_Africa_%28centered_orthographic_projection%29.svg/250px-South_Africa_%28centered_orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/south-africa.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -198,7 +198,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Sudan</strong>',
 		answerDescriptionHtml: 'Location: Northeast Africa<br>Principal Language: Arabic, English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sudan_%28orthographic_projection%29_highlighted.svg/250px-Sudan_%28orthographic_projection%29_highlighted.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/sudan.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -206,7 +206,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Eswatini (former official name: Swaziland)</strong>',
 		answerDescriptionHtml: 'Location: Southern Africa<br>Principal Language: Swati, English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eswatini_on_the_globe_%28special_marker%29_%28Madagascar_centered%29.svg/250px-Eswatini_on_the_globe_%28special_marker%29_%28Madagascar_centered%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/eswatini.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -214,7 +214,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Tanzania</strong>',
 		answerDescriptionHtml: 'Location: East Africa<br>Principal Language: Swahili',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tanzania_%28orthographic_projection%29.svg/250px-Tanzania_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/tanzania.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -222,7 +222,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Tunisia</strong>',
 		answerDescriptionHtml: 'Location: North Africa<br>Principal Language: Arabic, French',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tunisia_location_%28orthographic_projection%29.svg/250px-Tunisia_location_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/tunisia.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -230,7 +230,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Uganda</strong>',
 		answerDescriptionHtml: 'Location: East Africa<br>Principal Language: English, Swahili',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Uganda_%28orthographic_projection%29.svg/250px-Uganda_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/uganda.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -238,7 +238,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Zambia</strong>',
 		answerDescriptionHtml: 'Location: Southern Africa<br>Principal Language: English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zambia_%28orthographic_projection%29.svg/250px-Zambia_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/zambia.png',
 		category: 'world-country-locations-languages-africa',
 	},
 	{
@@ -246,7 +246,7 @@ export const world_country_locations_languages_africa: FlashCard[] = [
 		questionDescriptionHtml: 'And its principal language',
 		answerTitleHtml: '<strong>Zimbabwe</strong>',
 		answerDescriptionHtml: 'Location: Southern Africa<br>Principal Language: English',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Zimbabwe_%28orthographic_projection%29.svg/250px-Zimbabwe_%28orthographic_projection%29.svg.png',
+		pathToMedia: 'images/world-country-locations/africa/zimbabwe.png',
 		category: 'world-country-locations-languages-africa',
 	},
 ]

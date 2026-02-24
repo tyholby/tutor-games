@@ -6,7 +6,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Alabama</strong>',
 		answerDescriptionHtml: 'Location: <strong>Southeastern United States</strong><br>Nickname: <strong>Yellowhammer State</strong>',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Alabama_in_United_States.svg/330px-Alabama_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/alabama.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -14,7 +14,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Alaska</strong>',
 		answerDescriptionHtml: 'Location: Northwestern United States (non-contiguous)<br>Nickname: The Last Frontier',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Alaska_in_United_States_%28US49%2B1%29.svg/330px-Alaska_in_United_States_%28US49%2B1%29.svg.png',
+		pathToMedia: 'images/us-state-locations/alaska.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -22,7 +22,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Arizona</strong>',
 		answerDescriptionHtml: 'Location: Southwestern United States<br>Nickname: The Grand Canyon State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Arizona_in_United_States.svg/330px-Arizona_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/arizona.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -30,7 +30,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Arkansas</strong>',
 		answerDescriptionHtml: 'Location: South Central United States<br>Nickname: The Natural State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Arkansas_in_United_States.svg/330px-Arkansas_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/arkansas.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -38,7 +38,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>California</strong>',
 		answerDescriptionHtml: 'Location: Western United States (Pacific Coast)<br>Nickname: The Golden State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/California_in_United_States.svg/330px-California_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/california.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -46,7 +46,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Colorado</strong>',
 		answerDescriptionHtml: 'Location: Western United States (Mountain Region)<br>Nickname: The Centennial State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Colorado_in_United_States.svg/330px-Colorado_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/colorado.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -54,7 +54,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Connecticut</strong>',
 		answerDescriptionHtml: 'Location: Northeastern United States (New England)<br>Nickname: The Constitution State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Connecticut_in_United_States_%28zoom%29.svg/330px-Connecticut_in_United_States_%28zoom%29.svg.png',
+		pathToMedia: 'images/us-state-locations/connecticut.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -62,7 +62,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Delaware</strong>',
 		answerDescriptionHtml: 'Location: Mid-Atlantic United States<br>Nickname: The First State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Delaware_in_United_States_%28zoom%29.svg/330px-Delaware_in_United_States_%28zoom%29.svg.png',
+		pathToMedia: 'images/us-state-locations/delaware.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -70,7 +70,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Florida</strong>',
 		answerDescriptionHtml: 'Location: Southeastern United States (Peninsula)<br>Nickname: The Sunshine State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Florida_in_United_States.svg/330px-Florida_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/florida.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -78,7 +78,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Georgia</strong>',
 		answerDescriptionHtml: 'Location: Southeastern United States<br>Nickname: The Peach State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Georgia_in_United_States.svg/330px-Georgia_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/georgia.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -86,7 +86,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Hawaii</strong>',
 		answerDescriptionHtml: 'Location: Pacific Ocean (non-contiguous)<br>Nickname: The Aloha State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hawaii_in_United_States_%28US50%29_%28%2Bgrid%29_%28zoom%29_%28W3%29.svg/330px-Hawaii_in_United_States_%28US50%29_%28%2Bgrid%29_%28zoom%29_%28W3%29.svg.png',
+		pathToMedia: 'images/us-state-locations/hawaii.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -94,7 +94,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Idaho</strong>',
 		answerDescriptionHtml: 'Location: Northwestern United States (Mountain Region)<br>Nickname: The Gem State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Idaho_in_United_States.svg/330px-Idaho_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/idaho.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -102,7 +102,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Illinois</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States<br>Nickname: Prairie State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Illinois_in_United_States.svg/330px-Illinois_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/illinois.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -110,7 +110,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Indiana</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States<br>Nickname: The Hoosier State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Indiana_in_United_States.svg/330px-Indiana_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/indiana.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -118,7 +118,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Iowa</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States<br>Nickname: The Hawkeye State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Iowa_in_United_States.svg/330px-Iowa_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/iowa.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -126,7 +126,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Kansas</strong>',
 		answerDescriptionHtml: 'Location: Central United States<br>Nickname: The Sunflower State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Kansas_in_United_States.svg/330px-Kansas_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/kansas.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -134,7 +134,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Kentucky</strong>',
 		answerDescriptionHtml: 'Location: East Central United States<br>Nickname: The Bluegrass State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Kentucky_in_United_States.svg/330px-Kentucky_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/kentucky.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -142,7 +142,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Louisiana</strong>',
 		answerDescriptionHtml: 'Location: South Central United States<br>Nickname: The Pelican State',
-		pathToMedia: 'placehohttps://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Louisiana_in_United_States.svg/330px-Louisiana_in_United_States.svg.pnglder',
+		pathToMedia: 'images/us-state-locations/louisiana.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -150,7 +150,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Maine</strong>',
 		answerDescriptionHtml: 'Location: Northeastern United States (New England)<br>Nickname: The Pine Tree State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Maine_in_United_States.svg/330px-Maine_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/maine.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -158,7 +158,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Maryland</strong>',
 		answerDescriptionHtml: 'Location: Mid-Atlantic United States<br>Nickname: The Old Line State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Maryland_in_United_States_%28zoom%29.svg/330px-Maryland_in_United_States_%28zoom%29.svg.png',
+		pathToMedia: 'images/us-state-locations/maryland.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -166,7 +166,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Massachusetts</strong>',
 		answerDescriptionHtml: 'Location: Northeastern United States (New England)<br>Nickname: The Bay State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Massachusetts_in_United_States_%28zoom%29.svg/330px-Massachusetts_in_United_States_%28zoom%29.svg.png',
+		pathToMedia: 'images/us-state-locations/massachusetts.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -174,7 +174,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Michigan</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States (Great Lakes)<br>Nickname: The Great Lakes State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Michigan_in_United_States.svg/330px-Michigan_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/michigan.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -182,7 +182,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Minnesota</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States (Upper Midwest)<br>Nickname: The North Star State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Minnesota_in_United_States.svg/330px-Minnesota_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/minnesota.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -190,7 +190,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Mississippi</strong>',
 		answerDescriptionHtml: 'Location: Southeastern United States<br>Nickname: The Magnolia State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mississippi_in_United_States.svg/330px-Mississippi_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/mississippi.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -198,7 +198,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Missouri</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States<br>Nickname: The Show-Me State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Missouri_in_United_States.svg/330px-Missouri_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/missouri.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -206,7 +206,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Montana</strong>',
 		answerDescriptionHtml: 'Location: Western United States (Mountain Region)<br>Nickname: The Treasure State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Montana_in_United_States.svg/330px-Montana_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/montana.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -214,7 +214,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Nebraska</strong>',
 		answerDescriptionHtml: 'Location: Central United States (Great Plains)<br>Nickname: The Cornhusker State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Nebraska_in_United_States.svg/330px-Nebraska_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/nebraska.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -222,7 +222,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Nevada</strong>',
 		answerDescriptionHtml: 'Location: Western United States<br>Nickname: The Silver State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Nevada_in_United_States.svg/330px-Nevada_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/nevada.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -230,7 +230,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>New Hampshire</strong>',
 		answerDescriptionHtml: 'Location: Northeastern United States (New England)<br>Nickname: The Granite State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/New_Hampshire_in_United_States_%28zoom%29.svg/330px-New_Hampshire_in_United_States_%28zoom%29.svg.png',
+		pathToMedia: 'images/us-state-locations/new-hampshire.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -238,7 +238,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>New Jersey</strong>',
 		answerDescriptionHtml: 'Location: Mid-Atlantic United States<br>Nickname: Garden State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/New_Jersey_in_United_States_%28zoom%29.svg/330px-New_Jersey_in_United_States_%28zoom%29.svg.png',
+		pathToMedia: 'images/us-state-locations/new-jersey.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -246,7 +246,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>New Mexico</strong>',
 		answerDescriptionHtml: 'Location: Southwestern United States<br>Nickname: Land of Enchantment',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/New_Mexico_in_United_States.svg/330px-New_Mexico_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/new-mexico.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -254,7 +254,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>New York</strong>',
 		answerDescriptionHtml: 'Location: Northeastern United States (Mid-Atlantic)<br>Nickname: The Empire State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/New_York_in_United_States.svg/330px-New_York_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/new-york.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -262,7 +262,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>North Carolina</strong>',
 		answerDescriptionHtml: 'Location: Southeastern United States<br>Nickname: Tar Heel State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/North_Carolina_in_United_States.svg/330px-North_Carolina_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/north-carolina.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -270,7 +270,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>North Dakota</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States (Great Plains)<br>Nickname: The Peace Garden State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/North_Dakota_in_United_States.svg/330px-North_Dakota_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/north-dakota.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -278,7 +278,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Ohio</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States<br>Nickname: The Buckeye State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ohio_in_United_States.svg/330px-Ohio_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/ohio.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -286,7 +286,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Oklahoma</strong>',
 		answerDescriptionHtml: 'Location: South Central United States<br>Nickname: The Sooner State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Oklahoma_in_United_States.svg/330px-Oklahoma_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/oklahoma.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -294,7 +294,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Oregon</strong>',
 		answerDescriptionHtml: 'Location: Western United States (Pacific Coast)<br>Nickname: The Beaver State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Oregon_in_United_States.svg/330px-Oregon_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/oregon.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -302,7 +302,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Pennsylvania</strong>',
 		answerDescriptionHtml: 'Location: Mid-Atlantic United States<br>Nickname: The Keystone State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pennsylvania_in_United_States.svg/330px-Pennsylvania_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/pennsylvania.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -310,7 +310,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Rhode Island</strong>',
 		answerDescriptionHtml: 'Location: Northeastern United States (New England)<br>Nickname: The Ocean State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rhode_Island_in_United_States_%28zoom%29_%28extra_close%29.svg/330px-Rhode_Island_in_United_States_%28zoom%29_%28extra_close%29.svg.png',
+		pathToMedia: 'images/us-state-locations/rhode-island.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -318,7 +318,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>South Carolina</strong>',
 		answerDescriptionHtml: 'Location: Southeastern United States<br>Nickname: The Palmetto State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/South_Carolina_in_United_States.svg/330px-South_Carolina_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/south-carolina.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -326,7 +326,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>South Dakota</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States (Great Plains)<br>Nickname: Mount Rushmore State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/South_Dakota_in_United_States.svg/330px-South_Dakota_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/south-dakota.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -334,7 +334,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Tennessee</strong>',
 		answerDescriptionHtml: 'Location: East Central United States<br>Nickname: The Volunteer State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Tennessee_in_United_States.svg/330px-Tennessee_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/tennessee.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -342,7 +342,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Texas</strong>',
 		answerDescriptionHtml: 'Location: South Central United States<br>Nickname: The Lone Star State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Texas_in_United_States.svg/330px-Texas_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/texas.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -350,7 +350,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Utah</strong>',
 		answerDescriptionHtml: 'Location: Western United States (Mountain Region)<br>Nickname: The Beehive State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Utah_in_United_States.svg/330px-Utah_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/utah.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -358,7 +358,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Vermont</strong>',
 		answerDescriptionHtml: 'Location: Northeastern United States (New England)<br>Nickname: The Green Mountain State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vermont_in_United_States_%28zoom%29.svg/330px-Vermont_in_United_States_%28zoom%29.svg.png',
+		pathToMedia: 'images/us-state-locations/vermont.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -366,7 +366,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Virginia</strong>',
 		answerDescriptionHtml: 'Location: Mid-Atlantic United States<br>Nickname: Old Dominion',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Virginia_in_United_States.svg/330px-Virginia_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/virginia.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -374,7 +374,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Washington</strong>',
 		answerDescriptionHtml: 'Location: Western United States (Pacific Coast)<br>Nickname: The Evergreen State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Washington_in_United_States.svg/330px-Washington_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/washington.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -382,7 +382,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>West Virginia</strong>',
 		answerDescriptionHtml: 'Location: East Central United States<br>Nickname: The Mountain State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/West_Virginia_in_United_States.svg/330px-West_Virginia_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/west-virginia.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -390,7 +390,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Wisconsin</strong>',
 		answerDescriptionHtml: 'Location: Midwestern United States (Great Lakes)<br>Nickname: The Badger State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wisconsin_in_United_States.svg/330px-Wisconsin_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/wisconsin.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -398,7 +398,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'And its nickname',
 		answerTitleHtml: '<strong>Wyoming</strong>',
 		answerDescriptionHtml: 'Location: Western United States (Mountain Region)<br>Nickname: The Equality State',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Wyoming_in_United_States.svg/330px-Wyoming_in_United_States.svg.png',
+		pathToMedia: 'images/us-state-locations/wyoming.png',
 		category: 'us-state-locations-nicknames',
 	},
 	{
@@ -406,7 +406,7 @@ export const us_state_locations_nicknames: FlashCard[] = [
 		questionDescriptionHtml: 'Can you tell me what states border it?',
 		answerTitleHtml: '<strong>District of Columbia (Washington, D.C.)</strong>',
 		answerDescriptionHtml: 'It is bordered by two states: Maryland to the north, east, and west, and Virginia to the south/southwest across the Potomac River',
-		pathToMedia: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/DC_locator_map_with_state_names.jpg',
+		pathToMedia: 'images/us-state-locations/dc.jpg',
 		category: 'us-state-locations-nicknames',
 	},
 ]
