@@ -192,28 +192,24 @@ export const units: Unit[] = [
 		key: 'flash-cards-world-country-locations-languages-north-america',
 		label: 'World Country Map Study & Languages - North America',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
-		comingSoon: true,
 		header: 'World Country Map Study & Languages',
 	},
 	{
 		key: 'flash-cards-world-country-locations-languages-south-america',
 		label: 'World Country Map Study & Languages - South America',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
-		comingSoon: true,
 		header: 'World Country Map Study & Languages',
 	},
 	{
 		key: 'flash-cards-world-country-locations-languages-europe',
 		label: 'World Country Map Study & Languages - Europe',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
-		comingSoon: true,
 		header: 'World Country Map Study & Languages',
 	},
 	{
 		key: 'flash-cards-world-country-locations-languages-asia',
 		label: 'World Country Map Study & Languages - Asia',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
-		comingSoon: true,
 		header: 'World Country Map Study & Languages',
 	},
 	{
@@ -226,7 +222,6 @@ export const units: Unit[] = [
 		key: 'flash-cards-world-country-locations-languages-australia-oceania',
 		label: 'World Country Map Study & Languages - Australia (Oceania)',
 		gameKeys: [GAME_KEYS.FLASH_CARDS],
-		comingSoon: true,
 		header: 'World Country Map Study & Languages',
 	},
 	// World Cities & Landmarks by Continent
