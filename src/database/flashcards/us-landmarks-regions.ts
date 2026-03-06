@@ -2,35 +2,35 @@ import type { FlashCard } from '@/types'
 
 export const us_landmarks_regions: FlashCard[] = [
 	{
-		questionTitleHtml: '<strong>U.S. Census Regions: Northeast</strong>',
+		questionTitleHtml: '<strong>U.S. Census Regions</strong>',
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>U.S. Census Regions: Northeast</strong>',
 		answerDescriptionHtml: 'Divisions: New England, Mid-Atlantic<br>States include: Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/us-census-northeast.png',
 		category: 'us-landmarks-regions',
 	},
 	{
-		questionTitleHtml: '<strong>U.S. Census Regions: Midwest</strong>',
+		questionTitleHtml: '<strong>U.S. Census Regions</strong>',
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>U.S. Census Regions: Midwest</strong>',
 		answerDescriptionHtml: 'Divisions: East North Central, West North Central<br>States include: Ohio, Michigan, Indiana, Illinois, Wisconsin, Minnesota, Iowa, Missouri, North Dakota, South Dakota, Nebraska, Kansas',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/us-census-midwest.png',
 		category: 'us-landmarks-regions',
 	},
 	{
-		questionTitleHtml: '<strong>U.S. Census Regions: South</strong>',
+		questionTitleHtml: '<strong>U.S. Census Regions</strong>',
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>U.S. Census Regions: South</strong>',
 		answerDescriptionHtml: 'Divisions: South Atlantic, East South Central, West South Central<br>States include: Delaware, Maryland, Virginia, West Virginia, Kentucky, Tennessee, North Carolina, South Carolina, Georgia, Florida, Alabama, Mississippi, Arkansas, Louisiana, Oklahoma, Texas',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/us-census-south.png',
 		category: 'us-landmarks-regions',
 	},
 	{
-		questionTitleHtml: '<strong>U.S. Census Regions: West</strong>',
+		questionTitleHtml: '<strong>U.S. Census Regions</strong>',
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>U.S. Census Regions: West</strong>',
 		answerDescriptionHtml: 'Divisions: Mountain, Pacific<br>States include: Montana, Idaho, Wyoming, Colorado, New Mexico, Arizona, Utah, Nevada, Washington, Oregon, California, Alaska, Hawaii',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/us-census-west.png',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -38,7 +38,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>The Alamo</strong>',
 		answerDescriptionHtml: 'Location: San Antonio, Texas<br>Historic mission and fortress, site of the Battle of the Alamo',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/alamo.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -46,7 +46,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Liberty Bell</strong>',
 		answerDescriptionHtml: 'Location: Philadelphia, Pennsylvania<br>Historic symbol of American independence',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/liberty-bell.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -54,7 +54,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Mt. Rushmore</strong>',
 		answerDescriptionHtml: 'Location: South Dakota<br>National memorial featuring carved faces of four U.S. presidents',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/mt-rushmore.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -62,7 +62,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Golden Gate Bridge</strong>',
 		answerDescriptionHtml: 'Location: San Francisco, California<br>Famous suspension bridge spanning the Golden Gate strait',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/golden-gate-bridge.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -70,7 +70,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Monticello</strong>',
 		answerDescriptionHtml: 'Location: Charlottesville, Virginia<br>Historic home of Thomas Jefferson',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/monticello.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -78,7 +78,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Statue of Liberty</strong>',
 		answerDescriptionHtml: 'Location: New York, New York<br>Iconic symbol of freedom and democracy',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/statue-of-liberty.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -86,7 +86,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Brooklyn Bridge</strong>',
 		answerDescriptionHtml: 'Location: New York, New York<br>Historic suspension bridge connecting Manhattan and Brooklyn',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/brooklyn-bridge.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -94,7 +94,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Rose Bowl</strong>',
 		answerDescriptionHtml: 'Location: Pasadena, California<br>Famous stadium and site of the annual Rose Bowl game',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/rose-bowl.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -102,7 +102,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Washington Monument</strong>',
 		answerDescriptionHtml: 'Location: Washington, D.C.<br>Obelisk memorial to George Washington',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/washington-monument.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -110,7 +110,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Lincoln Memorial</strong>',
 		answerDescriptionHtml: 'Location: Washington, D.C.<br>Monument honoring Abraham Lincoln',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/lincoln-memorial.jpeg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -118,7 +118,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Gateway Arch</strong>',
 		answerDescriptionHtml: 'Location: St. Louis, Missouri<br>Iconic stainless steel arch, symbol of the westward expansion',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/gateway-arch.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -126,7 +126,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Space Needle</strong>',
 		answerDescriptionHtml: 'Location: Seattle, Washington<br>Iconic observation tower and symbol of Seattle',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/space-needle.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -134,7 +134,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Death Valley</strong>',
 		answerDescriptionHtml: 'Location: California and Nevada<br>Hottest and driest national park in the United States',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/death-valley.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -142,7 +142,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Niagara Falls</strong>',
 		answerDescriptionHtml: 'Location: New York (and Ontario, Canada)<br>Famous waterfall on the border between the U.S. and Canada',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/niagara-falls.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -150,14 +150,14 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Mammoth Cave</strong>',
 		answerDescriptionHtml: 'Location: Kentucky<br>World\'s longest known cave system',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/mammoth-cave.jpg',
 		category: 'us-landmarks-regions',
 	},	{
 		questionTitleHtml: '<strong>Old Faithful Geyser</strong>',
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Old Faithful Geyser</strong>',
 		answerDescriptionHtml: 'Location: Wyoming (Yellowstone National Park)<br>Famous geyser known for its regular eruptions',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/old-faithful.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -165,7 +165,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Independence Rock</strong>',
 		answerDescriptionHtml: 'Location: Wyoming<br>Historic landmark on the Oregon Trail',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/independence-rock.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -173,7 +173,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Grand Canyon</strong>',
 		answerDescriptionHtml: 'Location: Arizona<br>Massive canyon carved by the Colorado River',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/grand-canyon.jpeg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -181,7 +181,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Hollywood</strong>',
 		answerDescriptionHtml: 'Location: Los Angeles, California<br>Famous neighborhood and center of the American film industry',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/hollywood.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -189,7 +189,15 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Alcatraz</strong>',
 		answerDescriptionHtml: 'Location: San Francisco, California<br>Former federal prison on an island in San Francisco Bay',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/alcatraz.jpg',
+		category: 'us-landmarks-regions',
+	},
+	{
+		questionTitleHtml: '<strong>List the great lakes</strong>',
+		questionDescriptionHtml: 'What is the location or description of this?',
+		answerTitleHtml: '<strong>List the great lakes</strong>',
+		answerDescriptionHtml: 'Superior, Michigan, Huron, Erie, Ontario',
+		pathToMedia: 'images/us-landmarks-regions/great-lakes.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -197,7 +205,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Countries Bordering the United States</strong>',
 		answerDescriptionHtml: 'Canada (north), Mexico (south)',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/us-borders.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -205,7 +213,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Bodies of Water Bordering the United States</strong>',
 		answerDescriptionHtml: 'Atlantic Ocean (east), Pacific Ocean (west), Gulf of Mexico (south), Arctic Ocean (Alaska)',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/us-borders.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -213,7 +221,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Largest State by Land Area</strong>',
 		answerDescriptionHtml: 'Alaska',
-		pathToMedia: 'placeholder',
+		pathToMedia: null,
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -221,7 +229,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Smallest State by Land Area</strong>',
 		answerDescriptionHtml: 'Rhode Island',
-		pathToMedia: 'placeholder',
+		pathToMedia: null,
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -229,7 +237,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Most Populous State</strong>',
 		answerDescriptionHtml: 'California',
-		pathToMedia: 'placeholder',
+		pathToMedia: null,
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -237,15 +245,15 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Least Populous State</strong>',
 		answerDescriptionHtml: 'Wyoming',
-		pathToMedia: 'placeholder',
+		pathToMedia: null,
 		category: 'us-landmarks-regions',
 	},
 	{
 		questionTitleHtml: '<strong>Highest Point of Elevation in the U.S.</strong>',
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Highest Point of Elevation in the U.S.</strong>',
-		answerDescriptionHtml: 'Denali (Mount McKinley), Alaska - 20,310 feet',
-		pathToMedia: 'placeholder',
+		answerDescriptionHtml: 'Denali, Alaska (Mount McKinley) - 20,310 feet',
+		pathToMedia: 'images/us-landmarks-regions/denali.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -253,7 +261,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Lowest Point of Elevation in the U.S.</strong>',
 		answerDescriptionHtml: 'Death Valley, California - 282 feet below sea level',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/death-valley.jpg',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -261,7 +269,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Great Basin Desert</strong>',
 		answerDescriptionHtml: 'Location: Nevada, Utah, Oregon, Idaho, California<br>Largest desert in the United States',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/great-basin-desert.gif',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -269,7 +277,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Mojave Desert</strong>',
 		answerDescriptionHtml: 'Location: California, Nevada, Arizona, Utah<br>Driest desert in North America',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/mojave-desert.png',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -277,7 +285,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Sonoran Desert</strong>',
 		answerDescriptionHtml: 'Location: Arizona, California, Mexico<br>Hottest desert in North America',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/sonoran-desert.png',
 		category: 'us-landmarks-regions',
 	},
 	{
@@ -285,7 +293,7 @@ export const us_landmarks_regions: FlashCard[] = [
 		questionDescriptionHtml: 'What is the location or description of this?',
 		answerTitleHtml: '<strong>Chihuahuan Desert</strong>',
 		answerDescriptionHtml: 'Location: Texas, New Mexico, Arizona, Mexico<br>Largest desert in North America',
-		pathToMedia: 'placeholder',
+		pathToMedia: 'images/us-landmarks-regions/chihuahuan-desert.png',
 		category: 'us-landmarks-regions',
 	},
 ]
